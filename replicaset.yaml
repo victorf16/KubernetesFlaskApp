@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata: 
+  name: trabalho15dvp-rs
+  labels: 
+    app: trabalho15dvp
+spec: 
+  replicas: 3
+  selector: 
+    matchLabels:
+      app: trabalho15dvp
+  template: 
+    metadata: 
+      labels: 
+        app: trabalho15dvp
+    spec: 
+      containers:
+      - name: trabalho15dvp-app
+        image: victorf16/trabalho15dvp_kubernetesimage:v1
+
