@@ -29,5 +29,7 @@
         "env.bak{,/**}",
         "venv.bak{,/**}",
         ".vscode{,/**}"
-    ]
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/2c814482-e174-47a3-a7ec-8fa1be163b68/resourceGroups/web_app_environment/providers/Microsoft.Web/sites/fidelizamaisvoce",
+    "appService.deploySubpath": "."
 }
