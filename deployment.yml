@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: 
+  name: fidelizamaisvoce-deployment
+  labels: 
+    app: fidelizamaisvoce
+spec: 
+  replicas: 3
+  selector: 
+    matchLabels:
+      app: fidelizamaisvoce
+  template: 
+    metadata: 
+      labels: 
+        app: fidelizamaisvoce
+    spec: 
+      containers:
+      - name: fidelizamaisvoce-app
+        image: victorf16/fidelizamaisvoce
