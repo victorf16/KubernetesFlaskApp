@@ -36,6 +36,7 @@ az aks get-credentials --resource-group kubernetes --name aks-trabalho
 
 ![image](https://github.com/victorf16/KubernetesFlaskApp/assets/102988977/64f6305b-fc3b-4aad-ab87-a77c8abdb935)
 
+### Ao acessar o navegado você acessara a pagina abaixo atraves da url http://20.232.217.215/signup.
 ![image](https://github.com/victorf16/KubernetesFlaskApp/assets/102988977/d2b1c4dc-9c58-417d-933f-3a959d702d0e)
 
 
