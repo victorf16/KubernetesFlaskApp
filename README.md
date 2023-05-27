@@ -20,3 +20,9 @@ az aks get-credentials --resource-group kubernetes --name aks-trabalho
 ### Apos realizar o login digite o comando kubectl get deployments --all-namespaces=true, a saida desse comando deve ser parecida com a saida da imagem abaixo
 ![image](https://github.com/victorf16/KubernetesFlaskApp/assets/102988977/ce73f495-1f56-4b6e-b9b3-3a3a0f76a0ec)
 
+### Clone o repositorio dentro do ambiente do azure powershell para clonar o repositorio onde esta o nosso projeto
+![image](https://github.com/victorf16/KubernetesFlaskApp/assets/102988977/a95c984a-4a77-44d7-9fbd-c8c50961abd2)
+
+### Abra o diretorio utilizando o comando cd
+
+
