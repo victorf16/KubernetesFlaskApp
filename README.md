@@ -29,4 +29,8 @@ az aks get-credentials --resource-group kubernetes --name aks-trabalho
 ### Então execute os seguintes comandos kubectl create -f deployment.yml e o comando kubectl create -f service.yml  
 ![image](https://github.com/victorf16/KubernetesFlaskApp/assets/102988977/748fbad3-9aa7-4893-8133-a9355f1a8509)
 
+### cetifique se com os comandos kubectl get deployments -A e kubectl get svc -A se o fidelizamaisvoce-deployment e o fidelizamaisvoce-deployment-service foram criados respectivamente.
+![image](https://github.com/victorf16/KubernetesFlaskApp/assets/102988977/77ec542d-d281-406e-940a-e246a256abef)
+
+
 
