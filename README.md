@@ -25,7 +25,7 @@ az aks get-credentials --resource-group kubernetes --name aks-trabalho
 
 ### Abra o diretorio utilizando o comando cd
 
-### Sertifique se, de que os arquivos foram criados.
+### Sertifique se que os arquivos foram criados.
 ### Então execute os seguintes comandos kubectl create -f deployment.yml e o comando kubectl create -f service.yml  
 ![image](https://github.com/victorf16/KubernetesFlaskApp/assets/102988977/748fbad3-9aa7-4893-8133-a9355f1a8509)
 
