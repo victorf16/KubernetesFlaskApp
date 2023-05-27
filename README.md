@@ -32,5 +32,11 @@ az aks get-credentials --resource-group kubernetes --name aks-trabalho
 ### cetifique se com os comandos kubectl get deployments -A e kubectl get svc -A se o fidelizamaisvoce-deployment e o fidelizamaisvoce-deployment-service foram criados respectivamente.
 ![image](https://github.com/victorf16/KubernetesFlaskApp/assets/102988977/77ec542d-d281-406e-940a-e246a256abef)
 
+### Acesse o IP criado pelo loadbalancer do fidelizamaisvoce-deployment-service.
+
+![image](https://github.com/victorf16/KubernetesFlaskApp/assets/102988977/64f6305b-fc3b-4aad-ab87-a77c8abdb935)
+
+![image](https://github.com/victorf16/KubernetesFlaskApp/assets/102988977/d2b1c4dc-9c58-417d-933f-3a959d702d0e)
+
 
 
