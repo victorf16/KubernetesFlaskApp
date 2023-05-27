@@ -39,5 +39,15 @@ az aks get-credentials --resource-group kubernetes --name aks-trabalho
 ### Ao acessar o navegado você acessara a pagina abaixo atraves da url http://20.232.217.215/signup.
 ![image](https://github.com/victorf16/KubernetesFlaskApp/assets/102988977/d2b1c4dc-9c58-417d-933f-3a959d702d0e)
 
+### Em caso qualquer falha/exclusão em um dos pods o nosso deployment junto ao replica set se encarregara de criar um novo pod da nossa aplicação python
+
+![image](https://github.com/victorf16/KubernetesFlaskApp/assets/102988977/759601a0-4749-4169-9018-03c57a0116f6)
+
+![image](https://github.com/victorf16/KubernetesFlaskApp/assets/102988977/13080c21-5cac-4876-86f9-cfb5cf5deb7b)
+
+![image](https://github.com/victorf16/KubernetesFlaskApp/assets/102988977/a793f6ab-e5f9-4993-bff8-e58ec6f23351)
+
+![image](https://github.com/victorf16/KubernetesFlaskApp/assets/102988977/fef7b438-2ff7-44ea-bdd3-bbc64ebd0260)
+
 
 
