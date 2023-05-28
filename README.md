@@ -1,3 +1,4 @@
+## Build do docker
 * projetoKubernets
 
 * Comandos efetuados no docker para gerar imagem
@@ -10,7 +11,7 @@ docker run -d -p 80:5000 --name fidelizamaisvoce  victorf16/fidelizamaisvoce
 docker push victorf16/fidelizamaisvoce 
 
 
-* comandos que utilizamos no kubernets 
+## Azure AKS 
 * Logar no kubernets
 az account set --subscription 9359d480-32ba-4a9d-bb0e-3f1ea099e8f0
 
