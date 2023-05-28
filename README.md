@@ -2,13 +2,21 @@
 
 * Para realizar os passsos abaixo é necessário a conta da azure ativa, acessar https://portal.azure.com para acessar a azure, no nosso caso utilizamos a subscrição disponibilizada na nossa sala de aula do curso MBA em Engenharia DevOps FIAP 15DVP
 
-* Após criar o serviço do AKS, basta abrir o azure powershell no canto direito da tela do azure
+Para executar este material deve estar com a versão mais recetne do azure CLI instalada, instruções e detalhes de como instalar o azure CLI no Link abaixo
+https://learn.microsoft.com/pt-br/cli/azure/install-azure-cli-windows?tabs=azure-cli
+
+## Instalação do Docker para criar o Build
+
+Para executar este material deve estar com a versão mais recente Docker instalado, no nosso caso utilizamos o docker para Windows, instruções e detalhes de como instalar o Docker no link abaixo 
+
+https://www.bing.com/search?q=como+isntalar+o+docker+no+windwos&cvid=f38061e9dcbb4a41905126129bb47951&aqs=edge..69i57j0l8.3607j0j4&FORM=ANAB01&PC=DCTS
 
 
-
-## CI do docker (Aplicação de exemplo com 1 front end e uma página informativa do host)
 
 ### Clone o repositorio dentro do ambiente do azure powershell para clonar o repositorio onde esta o nosso projeto
+
+Após a instalação do docker e do Azure CLI, 
+
 ![image](https://github.com/victorf16/KubernetesFlaskApp/assets/102988977/a95c984a-4a77-44d7-9fbd-c8c50961abd2)
 
 ## Build do docker
