@@ -1,14 +1,35 @@
+## Acesso Azure
+
+* Para realizar os passsos abaixo é necessário a conta da azure ativa, acessar https://portal.azure.com para acessar a azure, no nosso caso utilizamos a subscrição disponibilizada na nossa sala de aula do curso MBA em Engenharia DevOps FIAP 15DVP
+
+* Após criar o serviço do AKS, basta abrir o azure powershell no canto direito da tela do azure
+
+
+
+## CI do docker (Aplicação de exemplo com 1 front end e uma página informativa do host)
+
+### Clone o repositorio dentro do ambiente do azure powershell para clonar o repositorio onde esta o nosso projeto
+![image](https://github.com/victorf16/KubernetesFlaskApp/assets/102988977/a95c984a-4a77-44d7-9fbd-c8c50961abd2)
+
 ## Build do docker
+
 * projetoKubernets
 
 * Comandos efetuados no docker para gerar imagem
+
+docker build -t victorf16/fidelizamaisvoce .
+
+docker run -d -p 80:5000 --name fidelizamaisvoce  victorf16/fidelizamaisvoce 
+
 * importante estar logado no docker hup para realizar o push
+
+docker push victorf16/fidelizamaisvoce 
+
+
 
 * utilizamos o source code que criamos no link https://github.com/victorf16/KubernetesFlaskApp
 
-docker build -t victorf16/fidelizamaisvoce .
-docker run -d -p 80:5000 --name fidelizamaisvoce  victorf16/fidelizamaisvoce 
-docker push victorf16/fidelizamaisvoce 
+
 
 
 ## Azure AKS 
@@ -21,8 +42,7 @@ az aks get-credentials --resource-group kubernetes --name aks-trabalho
 ### Apos realizar o login digite o comando kubectl get deployments --all-namespaces=true, a saida desse comando deve ser parecida com a saida da imagem abaixo
 ![image](https://github.com/victorf16/KubernetesFlaskApp/assets/102988977/ce73f495-1f56-4b6e-b9b3-3a3a0f76a0ec)
 
-### Clone o repositorio dentro do ambiente do azure powershell para clonar o repositorio onde esta o nosso projeto
-![image](https://github.com/victorf16/KubernetesFlaskApp/assets/102988977/a95c984a-4a77-44d7-9fbd-c8c50961abd2)
+
 
 ### Abra o diretorio utilizando o comando cd
 
