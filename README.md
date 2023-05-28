@@ -26,8 +26,10 @@
 az acr create --resource-group kubernetes   --name mycontainerregistry15dvp --sku Basic
 
 
+
 <img width="495" alt="image" src="https://github.com/victorf16/KubernetesFlaskApp/assets/28166733/18962482-0f1e-41de-9d3c-568281e96df5">
 
+az acr build --image victorf16/fidelizamaisvoce --registry mycontainerregistry15dvp  --file Dockerfile . 
 
 docker build -t victorf16/fidelizamaisvoce .
 
