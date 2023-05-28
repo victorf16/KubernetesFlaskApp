@@ -17,6 +17,18 @@
 
 * Comandos efetuados no docker para gerar imagem
 
+* Certifique-se que para realziar o comando abaixo é necessário executar na paste em que se encontra o arquivo Dockerfile , apos realizar o git clone baste acessar utilizando o comando cd e o nome da pasta que foi gerada pelo comando git 
+
+ cd ./KubernetesFlaskApp/
+
+* estando na pasta basta executar os comandos abaixo (certifique de usar o seu resource group, no nosso caso utilizamos o resource group kubernetes e criamos o container register chamado mycontainerregistry15dvp lembre-se que este nome deve ser único diferente do nosso utilizado no trabalho)
+
+az acr create --resource-group kubernetes   --name mycontainerregistry15dvp --sku Basic
+
+
+<img width="495" alt="image" src="https://github.com/victorf16/KubernetesFlaskApp/assets/28166733/18962482-0f1e-41de-9d3c-568281e96df5">
+
+
 docker build -t victorf16/fidelizamaisvoce .
 
 docker run -d -p 80:5000 --name fidelizamaisvoce  victorf16/fidelizamaisvoce 
