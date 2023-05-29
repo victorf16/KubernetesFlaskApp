@@ -68,7 +68,7 @@
 <body>
   <div class="container">
     <h1>Pagina de LOgin Fideliza + Voce</h1>
-    <form>  
+    <form action="/fidel" method="get"> <!-- Adiciona o atributo action e define a rota -->
       <label for="Nome Completo">Nome Completo:</label>
       <input type="text" id="nomecompleto" name="nomecompleto" required><br><br>
 
@@ -81,10 +81,9 @@
     </form>
   </div>
 
-
   <div class="container">
     <p>Retornar Pagina Anterior</p>
-    <a href="./" class="cta-button">CLique para retornar pagina anterior</a>
+    <a href="./verificapod" class="cta-button">CLique para veriricar qual pod eta e informacoes do cluster</a>
   </div>
 </body>
 </html>
